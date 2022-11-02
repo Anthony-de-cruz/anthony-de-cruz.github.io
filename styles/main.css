@@ -33,11 +33,26 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     display: grid;
     place-items: center;
 
     background-color: #726EFF;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 4px;
+}
+
+header a:hover {
+    background-color: #615dc0;
 }
 
 nav {
@@ -57,8 +72,8 @@ nav {
 
     vertical-align: middle;
     padding-inline: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .mainNavBar li:hover {
