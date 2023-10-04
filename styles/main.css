@@ -130,7 +130,7 @@ footer a {
 
 /* Animation from https://codepen.io/denic/pen/GRoOxbM */
 .typingAnimation {
-    width: 10.5ch;
+    width: 14.5ch;
     animation:
         1.2s steps(13) typing,
         .5s step-end 10 alternate blinking;
