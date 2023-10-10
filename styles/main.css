@@ -90,6 +90,10 @@ main {
     min-height: 80vh;
 }
 
+article {
+    margin-bottom: 100px;
+}
+
 footer {
     padding: 30px;
     text-align: center;

@@ -7,6 +7,23 @@
     flex-direction: column;
 }
 
+.blogContent header {
+    grid-column: 1 / 5;
+    background-color: #37465B;
+}
+
+.blogContent header h1 {
+    font-size: 60px;
+}
+
+.blogContent header h2 {
+    font-size: 36px;
+}
+
+.blogContent header p {
+    font-size: 26px;
+}
+
 .blogSection {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -15,45 +32,17 @@
     margin: 10px;
 }
 
+.blogSection header {
+    display: flex;
+}
+
+
 .blogStrip {
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
 
     grid-column: 1 / 5;
-}
-
-.blogSection header {
-    font-size: 40px;
-    background-color: #37465B;
-}
-
-#intro #aboutMeImage {
-    width: 100%;
-    height: auto;
-
-    border: 0px solid;
-    border-radius: 10px;
-}
-
-#aboutMeBox h2,
-#aboutMeBox h3,
-#aboutMeBox p,
-#aboutMeBox ul {
-    padding: 5px;
-}
-
-#aboutMeBox ul {
-    padding-left: 60px;
-}
-
-#aboutMeBox li {
-    padding: 5px;
-}
-
-#aboutMeBox h2,
-#aboutMeBox h3 {
-    color: orangered;
 }
 
 @media only screen and (max-width: 768px) {
