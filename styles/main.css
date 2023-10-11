@@ -133,15 +133,15 @@ footer a {
 }
 
 /* Animation from https://codepen.io/denic/pen/GRoOxbM */
-.typingAnimation {
-    width: 14.5ch;
+/* .typingAnimation {
+    width: 10ch;
     animation:
-        1.2s steps(13) typing,
-        .5s step-end 10 alternate blinking;
+        1s steps(10) typing,
+        .4s step-end 10 alternate blinking;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 2px solid #726EFF;
-    border-left: 2px solid #726EFF;
+    border-right: 2px solid #37465B;
+    border-left: 2px solid #37465B;
 }
 
 @keyframes typing {
@@ -154,4 +154,4 @@ footer a {
     50% {
         border-right: 2px solid;
     }
-}
+} */
