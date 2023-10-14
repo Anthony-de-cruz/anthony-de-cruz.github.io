@@ -1,3 +1,5 @@
+// Code from https://github.com/min30327/luxy.js/issues/3#issuecomment-465860795
+// Get device
 var _ua = (function(u){
 	return {
 		Tablet:(u.indexOf("windows") != -1 && u.indexOf("touch") != -1 && u.indexOf("tablet pc") == -1) 
@@ -16,6 +18,7 @@ var _ua = (function(u){
 	}
 })(window.navigator.userAgent.toLowerCase());
 
+// Enable if not mobile or tablet
 var luxyEl = document.getElementById('luxy');
 if(luxyEl){
 	if(!_ua.Mobile&&!_ua.Tablet){
