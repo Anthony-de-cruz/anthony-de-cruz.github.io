@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/intro.css" />
     <script src="https://kit.fontawesome.com/5fe7284cc1.js" crossorigin="anonymous"></script>
 
+    <script defer src="js/luxy_jump.js"></script>
+
     <title>Anthony de Cruz - My Website</title>
     <link rel="icon" type="image/ico" href="resources/images/favicon.ico" />
 
@@ -38,28 +40,28 @@
                 <a href="https://github.com/Anthony-de-cruz" title="Github">
                     <li>Github</li>
                 </a>
-                <a href="#NOT_IMPLEMENTED" title="Over">
+                <a onclick="jumpTo('#projects')" href="#projects" title="Projects">
                     <li>Projects</li>
                 </a>
-                <a href="#NOT_IMPLEMENTED" title="The Rainbow">
+                <a onclick="jumpTo('#interests')" href="#interests" title="Interest">
                     <li>Interests</li>
                 </a>
             </ul>
         </nav>
 
         <main class="mainContent">
-            <header id="intro" class="luxy-el" data-speed-y="2">
+            <header id="intro" class="luxy-el" data-speed-y="0">
                 <h1>Hello, world</h1>
                 <h3>I'm Anthony, a computer science student</h3>
             </header>
 
             <article class="blogContent">
-                <header class="luxy-el" data-speed-y="3">
+                <header id="projects" class="luxy-el" data-speed-y="1">
                     <h1>Personal Projects</h1>
                     <p>🛠️ This website is one and is under construction 🛠️</p>
                 </header>
 
-                <section class="blogSection luxy-el" data-speed-y="5">
+                <section class="blogSection luxy-el" data-speed-y="2">
                     <header>
                         <h2>8 Bit CPU Project</h2>
                     </header>
@@ -95,7 +97,7 @@
                     </p>
                 </section>
 
-                <section class="blogSection luxy-el" data-speed-y="7">
+                <section class="blogSection luxy-el" data-speed-y="3">
                     <header>
                         <h2>Personal Website</h2>
                     </header>
@@ -131,7 +133,7 @@
                     </p>
                 </section>
 
-                <section class="blogSection luxy-el" data-speed-y="9">
+                <section class="blogSection luxy-el" data-speed-y="4">
                     <header>
                         <h2>University Coursework</h2>
                     </header>
@@ -166,6 +168,59 @@
                         Suspendisse et ex non lectus aliquet mattis nec eu justo.
                     </p>
                 </section>
+
+                <header id="interests" class="luxy-el" data-speed-y="1">
+                    <h1>Interests</h1>
+                    <p>Things I like to do</p>
+                </header>
+
+                <section class="blogSection luxy-el" data-speed-y="2">
+                    <header>
+                        <h2>Music</h2>
+                    </header>
+
+                    <p class="blogStrip">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                        quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                        eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                        est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                        velit, sed quia non numquam eius modi tempora incidunt ut labore
+                        et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+                        veniam, quis nostrum exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                        vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                        nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+                        voluptas nulla pariatur?
+                    </p>
+
+                </section>
+
+                <section class="blogSection luxy-el" data-speed-y="3">
+                    <header>
+                        <h2>Reading</h2>
+                    </header>
+
+                    <p class="blogStrip">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                        quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                        eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                        est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                        velit, sed quia non numquam eius modi tempora incidunt ut labore
+                        et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+                        veniam, quis nostrum exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                        vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                        nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+                        voluptas nulla pariatur?
+                    </p>
+
+                </section>
             </article>
         </main>
 
@@ -182,7 +237,8 @@
     </div>
 
     <script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
-    <script charset="utf-8">luxy.init();</script>
+    <script src="js/luxy_enable.js"></script>
+    <!-- <script charset="utf-8">luxy.init();</script> -->
 </body>
 
 </html>

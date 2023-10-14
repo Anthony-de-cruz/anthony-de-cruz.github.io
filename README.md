@@ -1,3 +1,11 @@
 ## https://anthony-de-cruz.github.io/
+
 # Welcome to my personal website
-It's a website that is personal
+
+My personal website
+
+https://github.com/min30327/luxy.js
+Page smoothing script
+
+https://github.com/min30327/luxy.js/issues/21#issuecomment-877509973
+Fix for luxy jump to ID
