@@ -69,34 +69,33 @@
             </header>
 
             <p class="blogStrip">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-              velit, sed quia non numquam eius modi tempora incidunt ut labore
-              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-              veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-              vel eum iure reprehenderit qui in ea voluptate velit esse quam
-              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-              voluptas nulla pariatur?
+              Over the summer of 2023, I become inspired through a series by
+              Youtuber Sebastian Lague where he explores how computer logic and
+              memory operate, starting from gates and latches to ALUs. These
+              videos are by far the best resource that I've ever found
+              explaining these fundamentals, I would recommend to anyone who's
+              interested or are studying the subject. (He also has a cool cat)
             </p>
+            <iframe
+              class="blogStrip youtubeEmbed"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/QZwneRb-zqA?si=Gv4vU1dx3c_sbrj9"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
 
             <p class="blogStrip">
-              Curabitur et odio at ex maximus gravida id et massa. Sed ante
-              eros, lacinia sed purus eget, aliquet feugiat neque. Morbi at
-              turpis tempus, tempus felis quis, consectetur lorem. Donec
-              venenatis fringilla enim, eget lacinia risus luctus vitae. Duis
-              faucibus felis eget leo condimentum scelerisque. Ut rutrum
-              facilisis arcu et rhoncus. Cras sed eros ipsum. Nunc faucibus,
-              nulla ut ultrices ultrices, orci augue porttitor lacus, ac
-              convallis nisl sem ut purus. Nunc finibus lacus sit amet dolor
-              condimentum aliquet. Aliquam gravida efficitur scelerisque.
-              Suspendisse et ex non lectus aliquet mattis nec eu justo.
+              Surprised by how easy it is to make a basic ALU, I decided to
+              start replicating it in Minecraft. The game as a pseudo
+              electronics system that lets you build all the logic gates you
+              need to make a complete computer. Starting from a D latch and a 1
+              bit full adder, I eventually worked my way to a full 8 bit adder.
             </p>
+
+            <p class="blogStrip"></p>
 
             <figure class="blogStrip">
               <img
@@ -112,6 +111,61 @@
             </p>
             <p class="blogStrip">
               The parity flag is on meaning that the value is even.
+            </p>
+            <p class="blogStrip">
+              Eventually I became interested in replicating this on a breadboard
+              and watched around Ben Eater's youtube series on it.
+            </p>
+
+            <iframe
+              class="blogStrip youtubeEmbed"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/mOVOS9AjgFs?si=fxc2QXGyaVpwskPk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+
+            <p class="blogStrip">
+              In this 44 part series, Ben goes over the design and construction
+              of an 8 bit processor on breadboards. Aquiring all the equipment
+              would be expensive and a long endeavour. Nevertheless, I still was
+              inspired by the idea of being able to design my own cpu. I started
+              looking around the internet about CPU design, knowing virtually
+              nothing about it. I stumbled upon a blog by Ken Shirriff on his
+              project on reverse engineering the Intel 8008 chip. Seeing a real
+              chip implement a similar kind of ALU, it made the prospect of
+              doing it all myself even more real.
+            </p>
+            <p class="blogStrip">
+              Another video that gave me insight to the design process was jdh's
+              video: I designed my own 8-bit computer just to play PONG.
+            </p>
+            <iframe
+              class="blogStrip youtubeEmbed"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/7A1SzIIKMho?si=KX20tFH8rBnxVbKo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+
+            <p class="blogStrip">
+              Seeing how he went from a plain text file with the specification
+              to a full working simulation (he later ended up doing on a
+              breadboard), gave me the confidence to start throwing together
+              something myself. My initial ideas were pretty dodgy and often
+              fell apart after some critical thinking, but I was enjoying the
+              process nonetheless.
+            </p>
+            <p class="blogStrip">
+              Seeing as building a whole breadboard computer would take up too
+              much space, time and money, I figured that I would try the
+              software that I had seen on the university computers: Logisim.
             </p>
 
             <figure class="blogStrip">
@@ -186,6 +240,11 @@
               Normally, more bits are used for an instruction and the target
               address is simply stored in the next memory. However, since I want
               to make this as simple as possible, I will have it all at once.
+            </p>
+
+            <p class="blogStrip">
+              This is mostly my project so far, I will write about updates over
+              time.
             </p>
           </section>
 

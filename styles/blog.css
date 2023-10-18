@@ -5,6 +5,7 @@
 .blogContent {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .blogContent header {
@@ -47,7 +48,8 @@
 .blogStripRight {
     display: flex;
     flex-grow: 1;
-    justify-content: space-evenly;
+    place-content: center;
+    /* justify-content: space-evenly; */
 }
 
 .blogStrip {
@@ -76,6 +78,10 @@
 
 .blogContent figure figcaption {
     font-weight: bolder;
+}
+
+.youtubeEmbed {
+    margin-inline: auto;
 }
 
 #interests {
