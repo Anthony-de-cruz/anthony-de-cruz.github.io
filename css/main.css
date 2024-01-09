@@ -65,7 +65,7 @@ section {
 }
 
 section p {
-  margin-bottom: 5vh;
+  margin-bottom: 2.5vh;
 }
 
 .column {
@@ -102,7 +102,7 @@ figure img {
   display: inline-block;
 
   height: 352px;
-  width: clamp(352px, 20vw, 40vw);
+  width: 252px;
 
   margin: 10px;
 
@@ -164,7 +164,7 @@ footer a {
     height: 152px;
     width: 80vw;
 
-    margin-inline: auto;
+    margin: 5px;
   }
 }
 
