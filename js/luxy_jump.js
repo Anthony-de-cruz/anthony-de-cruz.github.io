@@ -3,8 +3,7 @@ jumpTo = (obj) => {
     scrollTo({
         top: document.querySelector(obj).offsetTop,
         left: 0,
-        behavior: 'smooth'
+        behavior: "smooth",
     });
     window.location = `${obj}`;
 };
-

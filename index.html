@@ -1,7 +1,8 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device, initial scale =1" />
@@ -13,339 +14,288 @@
     <script defer src="js/scroll_observer.js"></script>
 
     <script defer src="js/luxy_jump.js"></script>
-    <script
-      defer
-      src="https://min30327.github.io/luxy.js/dist/js/luxy.js"
-    ></script>
+    <script defer src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
 
     <script defer src="js/luxy_enable.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="luxy">
-      <header id="intro" class="scroll-hidden scroll-hidden-drop">
-        <h1>
-          <span class="intro-code">printf("</span>Hello, world<span
-            class="intro-code"
-            >");⠀⠀⠀⠀⠀</span
-          >
-        </h1>
-        <h3>I'm Anthony, a computer science student</h3>
-      </header>
-      <nav id="intro-nav" class="scroll-hidden scroll-hidden-drop">
-        <a href="resources/Anthony de Cruz CV.pdf" title="CV">CV</a>
-        <a href="https://github.com/Anthony-de-cruz" title="Github">Github</a>
-        <a onclick="jumpTo('#projects')" href="#projects" title="Projects">
-          Projects
-        </a>
-        <a onclick="jumpTo('#interests')" href="#interests" title="Interests">
-          Interests
-        </a>
-      </nav>
+        <header id="intro" class="scroll-hidden scroll-hidden-drop">
+            <h1>
+                <span class="intro-code">printf("</span>Hello, world<span class="intro-code">");⠀⠀⠀⠀⠀</span>
+            </h1>
+            <h3>I'm Anthony, a computer science student</h3>
+        </header>
+        <nav id="intro-nav" class="scroll-hidden scroll-hidden-drop">
+            <a href="resources/Anthony de Cruz CV.pdf" title="CV">CV</a>
+            <a href="https://github.com/Anthony-de-cruz" title="Github">Github</a>
+            <a onclick="jumpTo('#projects')" href="#projects" title="Projects">
+                Projects
+            </a>
+            <a onclick="jumpTo('#interests')" href="#interests" title="Interests">
+                Interests
+            </a>
+        </nav>
 
-      <main>
-        <article id="projects" class="scroll-hidden">
-          <header class="main-header">
-            <h1>Projects</h1>
-            <p>🛠️ This website is still under construction 🛠️</p>
-          </header>
-          <header class="sub-header">
-            <h3>8-Bit CPU Project</h3>
-            <p>2023-Present</p>
-          </header>
-          <section>
-            <div class="column">
-              <p>
-                Over the summer of 2023, I become inspired through a series by
-                Youtuber Sebastian Lague where he explores how computer logic
-                and memory operate, starting from gates and latches to ALUs.
-                These videos are by far the best resource that I've ever found
-                explaining these fundamentals, I would recommend to anyone who's
-                interested or are studying the subject. He also has a cool cat.
-              </p>
-              <iframe
-                class="youtube-embed"
-                src="https://www.youtube.com/embed/QZwneRb-zqA?si=Gv4vU1dx3c_sbrj9"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="column">
-              <figure class="blogStrip test">
-                <img
-                  src="resources/images/mc_adder_diagram.png"
-                  alt="Adder diagram image"
-                />
-                <figcaption>Ripple-carry 8 bit Adder in Minecraft</figcaption>
-              </figure>
-              <p>
-                Surprised by how easy it is to make a basic ALU, I decided to
-                start replicating it in Minecraft. The game as a pseudo
-                electronics system that lets you build all the logic gates you
-                need to make a complete computer. Starting from a D latch and a
-                1 bit full adder, I eventually worked my way to a full 8 bit
-                adder.
-              </p>
-            </div>
-            <p>
-              Here, you can see that both Register A and B have 00000100 (4),
-              the circuit is adding and so the output is 00001000 (8).
-            </p>
-            <p>The parity flag is on meaning that the value is even.</p>
-            <p>
-              Eventually I became interested in replicating this on a breadboard
-              and watched around Ben Eater's youtube series on it.
-            </p>
+        <main>
+            <article id="projects" class="scroll-hidden">
+                <header class="main-header">
+                    <h1>Projects</h1>
+                    <p>🛠️ This website is still under construction 🛠️</p>
+                </header>
+                <header class="sub-header">
+                    <h3>8-Bit CPU Project</h3>
+                    <p>2023-Present</p>
+                </header>
+                <section>
+                    <div class="column">
+                        <p>
+                            Over the summer of 2023, I become inspired through a series by
+                            Youtuber Sebastian Lague where he explores how computer logic
+                            and memory operate, starting from gates and latches to ALUs.
+                            These videos are by far the best resource that I've ever found
+                            explaining these fundamentals, I would recommend to anyone who's
+                            interested or are studying the subject. He also has a cool cat.
+                        </p>
+                        <iframe class="youtube-embed"
+                            src="https://www.youtube.com/embed/QZwneRb-zqA?si=Gv4vU1dx3c_sbrj9"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="column">
+                        <figure class="blogStrip test">
+                            <img src="resources/images/mc_adder_diagram.png" alt="Adder diagram image" />
+                            <figcaption>Ripple-carry 8 bit Adder in Minecraft</figcaption>
+                        </figure>
+                        <p>
+                            Surprised by how easy it is to make a basic ALU, I decided to
+                            start replicating it in Minecraft. The game as a pseudo
+                            electronics system that lets you build all the logic gates you
+                            need to make a complete computer. Starting from a D latch and a
+                            1 bit full adder, I eventually worked my way to a full 8 bit
+                            adder.
+                        </p>
+                    </div>
+                    <p>
+                        Here, you can see that both Register A and B have 00000100 (4),
+                        the circuit is adding and so the output is 00001000 (8).
+                    </p>
+                    <p>The parity flag is on meaning that the value is even.</p>
+                    <p>
+                        Eventually I became interested in replicating this on a breadboard
+                        and watched around Ben Eater's youtube series on it.
+                    </p>
 
-            <div class="column">
-              <p>
-                In this 44 part series, Ben goes over the design and
-                construction of an 8 bit processor on breadboards. Aquiring all
-                the equipment would be expensive and a long endeavour.
-                Nevertheless, I still was inspired by the idea of being able to
-                design my own cpu. I started looking around the internet about
-                CPU design, knowing virtually nothing about it. I stumbled upon
-                a blog by Ken Shirriff on his project on reverse engineering the
-                Intel 8008 chip. Seeing a real chip implement a similar kind of
-                ALU, it made the prospect of doing it all myself even more real.
-              </p>
-              <iframe
-                class="youtube-embed"
-                src="https://www.youtube.com/embed/mOVOS9AjgFs?si=fxc2QXGyaVpwskPk"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                loading="lazy"
-              ></iframe>
-            </div>
+                    <div class="column">
+                        <p>
+                            In this 44 part series, Ben goes over the design and
+                            construction of an 8 bit processor on breadboards. Aquiring all
+                            the equipment would be expensive and a long endeavour.
+                            Nevertheless, I still was inspired by the idea of being able to
+                            design my own cpu. I started looking around the internet about
+                            CPU design, knowing virtually nothing about it. I stumbled upon
+                            a blog by Ken Shirriff on his project on reverse engineering the
+                            Intel 8008 chip. Seeing a real chip implement a similar kind of
+                            ALU, it made the prospect of doing it all myself even more real.
+                        </p>
+                        <iframe class="youtube-embed"
+                            src="https://www.youtube.com/embed/mOVOS9AjgFs?si=fxc2QXGyaVpwskPk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
 
-            <p>
-              Another video that gave me insight to the design process was jdh's
-              video: I designed my own 8-bit computer just to play PONG.
-            </p>
-            <div class="column">
-              <iframe
-                class="youtube-embed"
-                src="https://www.youtube.com/embed/7A1SzIIKMho?si=KX20tFH8rBnxVbKo"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-              <p>
-                Seeing how he went from a plain text file with the specification
-                to a full working simulation (he later ended up doing on a
-                breadboard), gave me the confidence to start throwing together
-                something myself. My initial ideas were pretty dodgy and often
-                fell apart after some critical thinking, but I was enjoying the
-                process nonetheless.
-              </p>
-            </div>
-            <p>
-              Seeing as building a whole breadboard computer would take up too
-              much space, time and money, I figured that I would try the
-              software that I had seen on the university computers: Logisim.
-            </p>
+                    <p>
+                        Another video that gave me insight to the design process was jdh's
+                        video: I designed my own 8-bit computer just to play PONG.
+                    </p>
+                    <div class="column">
+                        <iframe class="youtube-embed"
+                            src="https://www.youtube.com/embed/7A1SzIIKMho?si=KX20tFH8rBnxVbKo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <p>
+                            Seeing how he went from a plain text file with the specification
+                            to a full working simulation (he later ended up doing on a
+                            breadboard), gave me the confidence to start throwing together
+                            something myself. My initial ideas were pretty dodgy and often
+                            fell apart after some critical thinking, but I was enjoying the
+                            process nonetheless.
+                        </p>
+                    </div>
+                    <p>
+                        Seeing as building a whole breadboard computer would take up too
+                        much space, time and money, I figured that I would try the
+                        software that I had seen on the university computers: Logisim.
+                    </p>
 
-            <figure>
-              <img
-                src="resources/images/1_bit_adder_circuit.png"
-                alt="1 Bit Adder Circuit image"
-              />
-              <figcaption>1 bit Adder in Logisim</figcaption>
-            </figure>
-            <p>
-              A and B are the 2 numbers that you want to add together; Ci is the
-              carry in; Y is the output; Co is the carry out.
-            </p>
+                    <figure>
+                        <img src="resources/images/1_bit_adder_circuit.png" alt="1 Bit Adder Circuit image" />
+                        <figcaption>1 bit Adder in Logisim</figcaption>
+                    </figure>
+                    <p>
+                        A and B are the 2 numbers that you want to add together; Ci is the
+                        carry in; Y is the output; Co is the carry out.
+                    </p>
 
-            <figure>
-              <img
-                src="resources/images/8_bit_adder_128.png"
-                alt="8 Bit Adder Circuit Image"
-              />
-              <figcaption>8 bit ALU in Logisim</figcaption>
-            </figure>
-            <p>
-              This is an 8 bit ALU capable of adding, subtracting and comparing.
-              Currently it is adding 64 + 64 and is outputting 128 (80 in
-              hexadecimal).
-            </p>
-            <p>
-              Op is the Op Code; A is the A register input; B is the B register
-              input; Ci is the carry in; O is the overflow flag; Y is the
-              output; Co is the carry out flag.
-            </p>
-            <figure>
-              <img
-                src="resources/images/8_bit_adder_128_flags.png"
-                alt="8 Bit Adder Circuit Image 2"
-              />
-              <figcaption>8 bit ALU Flag Logic in Logisim</figcaption>
-            </figure>
-            <p>
-              This is the bottom half of the ALU and shows the logic for each of
-              the flags.
-            </p>
-            <p>
-              Z is the zero flag and denotes whether or not the value is zero. G
-              is the greater than flag and denotes whether or not A is greater
-              than B (given a comparison operation). Finally, L is the lesser
-              than flag and denotes whether or not A is less than B (given a
-              comparison operation).
-            </p>
-            <figure>
-              <img
-                src="resources/images/High_Level_Architecture.png"
-                alt="High Level CPU Architectuer"
-              />
-              <figcaption>The Planned High Level Look</figcaption>
-            </figure>
-            <p>
-              This is the current plan for the high level architecture for the
-              whole CPU.
-            </p>
-            <div class="column">
-              <figure>
-                <img
-                  src="resources/images/Instruction_set_v2.png"
-                  alt="High Level CPU Architectuer"
-                />
-                <figcaption>The Planned Instruction Set</figcaption>
-              </figure>
-              <p>
-                Since the first 4 bits are reserved for instructions and the
-                last 4 bits are reserved for addresses, I only have 16
-                instructions to play with. This means I had to cut off a lot of
-                instructions that are normally seen on a CPU to maintain this
-                very simple system. Normally, more bits are used for an
-                instruction and the target address is simply stored in the next
-                memory. However, since I want to make this as simple as
-                possible, I will have it all at once.
-              </p>
-            </div>
+                    <figure>
+                        <img src="resources/images/8_bit_adder_128.png" alt="8 Bit Adder Circuit Image" />
+                        <figcaption>8 bit ALU in Logisim</figcaption>
+                    </figure>
+                    <p>
+                        This is an 8 bit ALU capable of adding, subtracting and comparing.
+                        Currently it is adding 64 + 64 and is outputting 128 (80 in
+                        hexadecimal).
+                    </p>
+                    <p>
+                        Op is the Op Code; A is the A register input; B is the B register
+                        input; Ci is the carry in; O is the overflow flag; Y is the
+                        output; Co is the carry out flag.
+                    </p>
+                    <figure>
+                        <img src="resources/images/8_bit_adder_128_flags.png" alt="8 Bit Adder Circuit Image 2" />
+                        <figcaption>8 bit ALU Flag Logic in Logisim</figcaption>
+                    </figure>
+                    <p>
+                        This is the bottom half of the ALU and shows the logic for each of
+                        the flags.
+                    </p>
+                    <p>
+                        Z is the zero flag and denotes whether or not the value is zero. G
+                        is the greater than flag and denotes whether or not A is greater
+                        than B (given a comparison operation). Finally, L is the lesser
+                        than flag and denotes whether or not A is less than B (given a
+                        comparison operation).
+                    </p>
+                    <figure>
+                        <img src="resources/images/High_Level_Architecture.png" alt="High Level CPU Architectuer" />
+                        <figcaption>The Planned High Level Look</figcaption>
+                    </figure>
+                    <p>
+                        This is the current plan for the high level architecture for the
+                        whole CPU.
+                    </p>
+                    <div class="column">
+                        <figure>
+                            <img src="resources/images/Instruction_set_v2.png" alt="High Level CPU Architectuer" />
+                            <figcaption>The Planned Instruction Set</figcaption>
+                        </figure>
+                        <p>
+                            Since the first 4 bits are reserved for instructions and the
+                            last 4 bits are reserved for addresses, I only have 16
+                            instructions to play with. This means I had to cut off a lot of
+                            instructions that are normally seen on a CPU to maintain this
+                            very simple system. Normally, more bits are used for an
+                            instruction and the target address is simply stored in the next
+                            memory. However, since I want to make this as simple as
+                            possible, I will have it all at once.
+                        </p>
+                    </div>
 
-            <p>
-              This is mostly my project so far, I will write about updates over
-              time.
-            </p>
-          </section>
+                    <p>
+                        This is mostly my project so far, I will write about updates over
+                        time.
+                    </p>
+                </section>
 
-          <header class="sub-header">
-            <h3>This Website</h3>
-            <p>2023-Present</p>
-          </header>
-          <section>
-            <p>
-              I started this website mid 2023 and have been adding to it
-              intermittently since. I plan on adding more in the near future.
-            </p>
-          </section>
-        </article>
+                <header class="sub-header">
+                    <h3>This Website</h3>
+                    <p>2023-Present</p>
+                </header>
+                <section>
+                    <p>
+                        I started this website mid 2023 and have been adding to it
+                        intermittently since. I plan on adding more in the near future.
+                    </p>
+                </section>
+            </article>
 
-        <article id="interests" class="scroll-hidden">
-          <header class="main-header">
-            <h1>My Interests</h1>
-            <p>🎧 🖌️ Things I like to do 📚 🎮</p>
-          </header>
+            <article id="interests" class="scroll-hidden">
+                <header class="main-header">
+                    <h1>My Interests</h1>
+                    <p>🎧 🖌️ Things I like to do 📚 🎮</p>
+                </header>
 
-          <header class="sub-header">
-            <h3>Music</h3>
-            <p>that I like.</p>
-          </header>
-          <section>
-            <p>
-              If you're not signed in on Spotify on your browser then you'll
-              have to put up with low quality previews.
-            </p>
-            <div class="spotify-tile-display">
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/59wlTaYOL5tDUgXnbBQ3my?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/4JBRlhgxP6tkb31KCfM88R?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/3M0lSi5WW79CXQamgSBIjx?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/2VyaGJJI8dOiv36F8vHZIL?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/2Tk8jDjWVqMb3EwC4REzPf?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/1Lg9yEMx0KvstP1ZLHXBJX?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/5QieHu5OR3DRrvgpuBuxgQ?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/4loXMor75kKVBB03ygwDlh?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                class="spotify-embed-tile"
-                src="https://open.spotify.com/embed/track/4U45aEWtQhrm8A5mxPaFZ7?utm_source=generator&theme=0"
-                frameborder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-            </div>
-          </section>
+                <header class="sub-header">
+                    <h3>Music</h3>
+                    <p>that I like.</p>
+                </header>
+                <section>
+                    <p>
+                        If you're not signed in on Spotify on your browser then you'll
+                        have to put up with low quality previews.
+                    </p>
+                    <div class="spotify-tile-display">
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/59wlTaYOL5tDUgXnbBQ3my?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/4JBRlhgxP6tkb31KCfM88R?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/3M0lSi5WW79CXQamgSBIjx?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/2VyaGJJI8dOiv36F8vHZIL?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/2Tk8jDjWVqMb3EwC4REzPf?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/1Lg9yEMx0KvstP1ZLHXBJX?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/5QieHu5OR3DRrvgpuBuxgQ?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/4loXMor75kKVBB03ygwDlh?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="spotify-embed-tile"
+                            src="https://open.spotify.com/embed/track/4U45aEWtQhrm8A5mxPaFZ7?utm_source=generator&theme=0"
+                            frameborder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                    </div>
+                </section>
 
-          <header class="sub-header">
-            <h3>Books</h3>
-            <p>that I've been reading.</p>
-          </header>
-          <section></section>
-        </article>
-      </main>
+                <header class="sub-header">
+                    <h3>Books</h3>
+                    <p>that I've been reading.</p>
+                </header>
+                <section></section>
+            </article>
+        </main>
 
-      <footer>
-        <ul>
-          <li><a href="https://github.com/Anthony-de-cruz">My Github</a></li>
-          <li>
-            Contact:
-            <a href="mailto:anthonydecruz@proton.me">anthonydecruz@proton.me</a>
-          </li>
-          <li>© Copyright 2022, Anthony de Cruz, MIT License</li>
-        </ul>
-      </footer>
+        <footer>
+            <ul>
+                <li><a href="https://github.com/Anthony-de-cruz">My Github</a></li>
+                <li>
+                    Contact:
+                    <a href="mailto:anthonydecruz@proton.me">anthonydecruz@proton.me</a>
+                </li>
+                <li>© Copyright 2022, Anthony de Cruz, MIT License</li>
+            </ul>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
